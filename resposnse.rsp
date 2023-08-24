@@ -15,7 +15,7 @@ MOS_USERNAME=
 MOS_PASSWORD=<SECURE_VALUE>
 
 #If the Software updates are already downloaded and available on your local system, then specify the path 
-to the directory where these patches are available and set SPECIFY_DOWNLOAD_LOCATION to true
+#to the directory where these patches are available and set SPECIFY_DOWNLOAD_LOCATION to true
 AUTO_UPDATES_LOCATION=
 
 #Proxy Server Name to connect to My Oracle Support
@@ -31,7 +31,7 @@ SOFTWARE_UPDATES_PROXY_USER=
 SOFTWARE_UPDATES_PROXY_PASSWORD=<SECURE_VALUE>
 
 #The oracle home location. This can be an existing Oracle Home or a new Oracle Home
-ORACLE_HOME=/u01/app/oracle/may23/new_middlware/
+ORACLE_HOME=/u01/app/oracle/may23/new_middlware/wls
  
 #Set this variable value to the Installation Type selected. e.g. Fusion Middleware Infrastructure, Fusion Middleware Infrastructure With Examples.
 INSTALL_TYPE=Fusion Middleware Infrastructure
@@ -43,7 +43,7 @@ MYORACLESUPPORT_USERNAME=
 MYORACLESUPPORT_PASSWORD=<SECURE VALUE>
  
 #Set this to true if you wish to decline the security updates. Setting this to true and providing empty string for
-My Oracle Support username will ignore the Oracle Configuration Manager configuration
+#My Oracle Support username will ignore the Oracle Configuration Manager configuration
 DECLINE_SECURITY_UPDATES=true
  
 #Set this to true if My Oracle Support Password is specified
@@ -63,8 +63,8 @@ PROXY_PWD=<SECURE VALUE>
  
 #Type String (URL format) Indicates the OCM Repeater URL which should be of the format [scheme[Http/Https]]://[repeater host]:[repeater port]
 COLLECTOR_SUPPORTHUB_URL=
-C.1.2 Sample Response File for Oracle WebLogic Server and Coherence Installation
-This sample shows the information that you can specify in a response file for a silent installation of Oracle WebLogic Server and Coherence.
+#C.1.2 Sample Response File for Oracle WebLogic Server and Coherence Installation
+#This sample shows the information that you can specify in a response file for a silent installation of Oracle WebLogic Server and Coherence.
 
 [ENGINE]
  
@@ -83,7 +83,7 @@ MOS_USERNAME=
 MOS_PASSWORD=<SECURE_VALUE>
 
 #If the Software updates are already downloaded and available on your local system, then specify the path
-to the directory where these patches are available and set SPECIFY_DOWNLOAD_LOCATION to true
+#to the directory where these patches are available and set SPECIFY_DOWNLOAD_LOCATION to true
 AUTO_UPDATES_LOCATION=
 
 #Proxy Server Name to connect to My Oracle Support
@@ -99,7 +99,7 @@ SOFTWARE_UPDATES_PROXY_USER=
 SOFTWARE_UPDATES_PROXY_PASSWORD=<SECURE_VALUE>
 
 #The oracle home location. This can be an existing Oracle Home or a new Oracle Home
-ORACLE_HOME=/u01/app/oracle/may23/new_middlware
+ORACLE_HOME=/u01/app/oracle/may23/new_middlware/wls
  
 #Set this variable value to the Installation Type selected. e.g. WebLogic Server, Coherence, Complete with Examples.
 INSTALL_TYPE=WebLogic Server
@@ -111,7 +111,7 @@ MYORACLESUPPORT_USERNAME=
 MYORACLESUPPORT_PASSWORD=<SECURE VALUE>
  
 #Set this to true if you wish to decline the security updates. Setting this to true and providing empty string for
-My Oracle Support username will ignore the Oracle Configuration Manager configuration
+#My Oracle Support username will ignore the Oracle Configuration Manager configuration
 DECLINE_SECURITY_UPDATES=true
  
 #Set this to true if My Oracle Support Password is specified
